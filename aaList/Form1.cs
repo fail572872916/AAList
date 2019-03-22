@@ -32,7 +32,8 @@ namespace aaList
             for (int i = 1 + 15 * (n - 1); i <= count; i++)
             {
                 MyControl mcl = new MyControl();
-                mcl.groupBox1.Text = i.ToString();
+              
+               
                 mcl.DataLoad(i);
                 this.flowLayoutPanel1.Controls.Add(mcl);
             }
