@@ -38,5 +38,10 @@ namespace aaList
                 this.flowLayoutPanel1.Controls.Add(mcl);
             }
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
